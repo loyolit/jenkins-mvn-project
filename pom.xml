@@ -27,6 +27,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+ <distributionManagement>
+        <repository>
+                <id>releaseRepo</id>
+                <name>releaseRepo</name>
+                <url>http://3.89.125.168:8081/repository/releaseRepo/</url>
+        </repository>
+        <snapshotRepository>
+                <id>snapshotRepo</id>
+                <name>snapshotRepo</name>
+                <url>http://3.89.125.168:8081/repository/snapshotRepo/</url>
+        </snapshotRepository>
+</distributionManagement>
 
   <build>
     <finalName>sample-webapp</finalName>
